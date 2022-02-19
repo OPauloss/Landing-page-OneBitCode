@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Formulário de Astronauta</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <img src="./imagens/logo.png" alt="OneBitCode">
+            <div class="first_name">
+                <h6>1 - Qual é o seu nome?</h6>
+                <label class="sr-only" for="inlineFormInputGroup">Primeiro nome</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text">Primeiro nome</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Digite aqui">
+                </div>
+                </div>
+            <div class="surname">
+                <label class="sr-only" for="inlineFormInputGroup">Segundo nome</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text">Segundo nome</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Digite aqui">
+                </div>
+                </div>
+        <div class="gender">
+            <h6>2 - Qual o seu gênero?</h6>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio1">Homem</label>
+                </div>
+                <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">Mulher</label>
+                </div>
+                <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio3">Prefiro não informar</label>
+                </div>
+            </div>
+            <div class="training">
+                <h6>3 - marque os treinamentos que você fez:</h6>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox"class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Treinamento básico de astronauta</label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox"class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Treinamento físico básico</label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox"class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Treinamento avançado de astronauta</label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox"class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Treinamento físico intenso</label>
+                </div>
+            </div>
+            <div class="qualities">
+                <h6>4 - Quais você acha que são suas qualidades?</h6>
+                <div class="options">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Proativo</label>
+                      </div>
+                </div>
+                <div class="options">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Resistente</label>
+                      </div>
+                </div>
+                <div class="options">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Não vomito fácil</label>
+                      </div>
+                </div>
+                <div class="options">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Não temo marciano</label>
+                      </div>
+                </div>
+                <div class="options">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Já vi todos os Star Wars</label>
+                      </div>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" class="btn btn-outline-danger" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <p>Feito por Paulo Henrique &copy;OneBitCode todos os direitos reservados - 2022</p>
+    </footer>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

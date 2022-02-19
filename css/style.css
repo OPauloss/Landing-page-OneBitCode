@@ -1,0 +1,54 @@
+html, body {
+  background-image: url("../imagens/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+  color: white;
+}
+
+form {
+  margin-top: 100px;
+}
+form fieldset {
+  background-color: #111111;
+  margin: auto;
+  padding: 20px;
+  max-width: 450px;
+}
+
+img {
+  position: relative;
+  left: 30%;
+  max-width: 45%;
+  margin-bottom: 20px;
+}
+
+h6 {
+  margin: 10px 0px 10px 0px;
+}
+
+.surname {
+  margin: 20px 0px 20px 0px;
+}
+
+.options {
+  display: inline-block;
+}
+
+.custom-control {
+  margin-right: 20px;
+}
+
+.btn {
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
